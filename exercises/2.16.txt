@@ -1,0 +1,59 @@
+1. 0xC3
+Binary= 1100 0011
+
+x << 3 
+Binary: 0001 1000
+Hex: 0x18
+
+Logical x >> 2
+Binary: 0011 0000
+Hex: 0x30
+
+Arithmetic x >> 2
+Binary: 1111 0000
+Hex: 0xF0
+
+2. 0x75
+Binary: 0111 0101
+
+x << 3 
+Binary: 1010 1000
+Hex: 0xA8
+
+Logical x >> 2
+Binary: 0001 1101
+Hex: 0x1D
+
+Arithmetic x >> 2
+Binary: 0001 1101
+Hex: 0x1D
+
+3. 0x87
+Binary: 1000 0111
+
+x << 3 
+Binary: 0011 1000
+Hex: 0x38
+
+Logical x >> 2
+Binary: 0010 0001
+Hex: 0x21
+
+Arithmetic x >> 2
+Binary: 1110 0001
+Hex: 0xE1
+
+4. 0x66
+Binary: 0110 0110
+
+x << 3 
+Binary: 0011 0000
+Hex: 0x30
+
+Logical x >> 2
+Binary: 0001 1001
+Hex: 0x19
+
+Arithmetic x >> 2
+Binary: 0001 1001
+Hex: 0x19
