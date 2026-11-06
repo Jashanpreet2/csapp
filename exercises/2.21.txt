@@ -1,0 +1,14 @@
+-2147483647-1 == 2147483648U
+type: unsigned, evaluation: 1
+
+-2147483647-1 < 2147483647
+type: signed, eval: 1
+
+-2147483647-1U < 2147483647
+type: unsigned, eval: 0
+
+-2147483647-1 < -2147483647
+type: signed, eval: 1
+
+-2147483647-1U < -2147483647
+type: unsigned, eval: 1 

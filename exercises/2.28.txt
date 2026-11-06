@@ -1,5 +1,14 @@
-a. The function will produce incorrect results when length of s
-is less than length of t.
-b. Because strlen(s) - strlen(t) will underflow into being >0;
-c. Use condition strlen(s) > strlen(t)
- 
+hex decimal
+0: 0
+5: 5
+8: 8
+D: 13
+F: 15
+
+-u4x
+decimal hex
+0: 0
+11: B
+8: 8
+3: 3
+1: 1
