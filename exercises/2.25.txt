@@ -1,0 +1,3 @@
+The error happens because 0-1 underflows to Umax and the function
+tries to access memory it doesn't have access to. It can be corrected
+by changing the condition to be i < length.

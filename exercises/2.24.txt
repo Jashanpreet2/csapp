@@ -1,0 +1,13 @@
+unsigned truncated
+0: 0
+2: 2
+9: 1
+11: 3
+15: 7
+
+two's truncated
+0: 0
+2: 2
+-7: 1
+-5: 3
+-1: -1

@@ -1,0 +1,21 @@
+0x00000076
+fun1(w) = 00000076
+fun2(w) = 00000076
+description: This performs no computation on this value.
+
+0x87654321
+fun1(w) = 0x00000021
+fun2(w) = 0x00000021 
+description: This sets the most significant 24 bits to 0.
+
+0x00000pc9 
+fun1(w) = 0x000000c9 
+fun2(w) = 0xFFFFFFc9 
+description: This performs no computation in fun1 and sets the most significant
+24 bits to 1 in fun2
+
+0xEDCBA987
+fun1(w) = 0x00000087
+fun2(w) = 0xFFFFFF87
+description: This sets the 24 most significant bits to 1 in fun2 and to 0 in fun1.
+
